@@ -33,7 +33,7 @@ public class FormHome extends javax.swing.JFrame {
         jMenuItem5 = new javax.swing.JMenuItem();
         jMenuBar2 = new javax.swing.JMenuBar();
         OnClickCadastros = new javax.swing.JMenu();
-        jMenuItem6 = new javax.swing.JMenuItem();
+        OneClickMetodosDePagamentos = new javax.swing.JMenuItem();
 
         jMenuItem1.setText("jMenuItem1");
 
@@ -49,13 +49,13 @@ public class FormHome extends javax.swing.JFrame {
 
         OnClickCadastros.setText("Cadastros");
 
-        jMenuItem6.setText("MétodosDePagamentos");
-        jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
+        OneClickMetodosDePagamentos.setText("MétodosDePagamentos");
+        OneClickMetodosDePagamentos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem6ActionPerformed(evt);
+                OneClickMetodosDePagamentosActionPerformed(evt);
             }
         });
-        OnClickCadastros.add(jMenuItem6);
+        OnClickCadastros.add(OneClickMetodosDePagamentos);
 
         jMenuBar2.add(OnClickCadastros);
 
@@ -75,14 +75,14 @@ public class FormHome extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
+    private void OneClickMetodosDePagamentosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OneClickMetodosDePagamentosActionPerformed
         // TODO add your handling code here:
         
         var form = new FormListaMetodosPagamento();
         form.setVisible(true);
                 System.out.println("Clicou no método de pagamento!");
 
-    }//GEN-LAST:event_jMenuItem6ActionPerformed
+    }//GEN-LAST:event_OneClickMetodosDePagamentosActionPerformed
 
     /**
      * @param args the command line arguments
@@ -121,12 +121,12 @@ public class FormHome extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu OnClickCadastros;
+    private javax.swing.JMenuItem OneClickMetodosDePagamentos;
     private javax.swing.JMenuBar jMenuBar2;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
-    private javax.swing.JMenuItem jMenuItem6;
     // End of variables declaration//GEN-END:variables
 }

@@ -34,12 +34,12 @@
             <Property name="text" type="java.lang.String" value="Cadastros"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem6">
+            <MenuItem class="javax.swing.JMenuItem" name="OneClickMetodosDePagamentos">
               <Properties>
                 <Property name="text" type="java.lang.String" value="M&#xe9;todosDePagamentos"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem6ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="OneClickMetodosDePagamentosActionPerformed"/>
               </Events>
             </MenuItem>
           </SubComponents>
